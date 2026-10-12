@@ -1,0 +1,16 @@
+# Set any number limit to 0 for "no limit".
+
+# Max visible characters (color codes not counted) in an item name.
+max-name-length: 50
+
+# Lore limits.
+max-lore-lines: 15
+max-lore-line-length: 60
+
+# Per-player gradient limits.
+max-saved-gradients: 25
+max-gradient-colors: 30
+
+# Names/lore containing any of these (case-insensitive) are rejected.
+# Color codes in the middle of a word do not get around this.
+blocked-words: []

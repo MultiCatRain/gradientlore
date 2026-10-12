@@ -1,0 +1,27 @@
+name: GradientLore
+version: '${version}'
+main: com.example.gradientlore.GradientLorePlugin
+api-version: '26.3'
+description: Per-player gradients (&g) for anvil names, /name and /lore.
+commands:
+  gradient:
+    description: Set, save, load, delete and list your gradients.
+    usage: /<command> <set|save|load|delete|list>
+    permission: gradientlore.gradient
+  name:
+    description: Rename the item in your hand (costs 1 XP level).
+    usage: /<command> <text>
+    permission: gradientlore.name
+  lore:
+    description: Edit the lore of the item in your hand.
+    usage: /<command> <add|set|insert|remove|clear|view>
+    permission: gradientlore.lore
+permissions:
+  gradientlore.gradient:
+    default: true
+  gradientlore.name:
+    default: true
+  gradientlore.lore:
+    default: true
+  gradientlore.anvil:
+    default: true
